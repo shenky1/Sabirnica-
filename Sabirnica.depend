@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1496700039 source:c:\users\matija\cpp\sabirnica\datafast.cpp
+	"DataFast.h"
+	<chrono>
+	<string>
+	<math.h>
+
+1496699646 c:\users\matija\cpp\sabirnica\datafast.h
+	"DataGenerator.h"
+	"Instrument.h"
+	"BusController.h"
+	<chrono>
+
+1496693426 c:\users\matija\cpp\sabirnica\datagenerator.h
+
+1496692820 c:\users\matija\cpp\sabirnica\instrument.h
+	<string>
+
+1496697925 c:\users\matija\cpp\sabirnica\buscontroller.h
+	"Instrument.h"
+	<string>
+	<vector>
+
+1496692827 source:c:\users\matija\cpp\sabirnica\main.cpp
+	<iostream>
+	<vector>
+	"Instrument.h"
+	"DataFast.h"
+	"DataRecorder.h"
+	"Statistics.h"
+	"BusController.h"
+	<string>
+
+1496688030 c:\users\matija\cpp\sabirnica\datarecorder.h
+
+1496696730 c:\users\matija\cpp\sabirnica\statistics.h
+	"BusController.h"
+	"Instrument.h"
+	"DataRecorder.h"
+
+1496697118 source:c:\users\matija\cpp\sabirnica\statistics.cpp
+	"Statistics.h"
+	<string>
+
+1496697770 source:c:\users\matija\cpp\sabirnica\buscontroller.cpp
+	"BusController.h"
+	<iostream>
+	<stdexcept>
+
